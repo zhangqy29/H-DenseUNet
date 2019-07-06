@@ -75,7 +75,7 @@ def generate_txt(image_path, save_folder):
         np.savetxt('./data/myTrainingDataTxt/LiverBox/box_'+str(i)+'.txt', box,fmt='%d')
 
 
-proprecessing(image_path='/home/zhangqy/CT/data/LITS17', save_folder='myTrainingData/')
+#proprecessing(image_path='/home/zhangqy/CT/data/LITS17', save_folder='myTrainingData/')
 #proprecessing(image_path='data/TestData/', save_folder='myTestData/')
 print ("Generate liver txt ")
 generate_livertxt(image_path='/home/zhangqy/CT/data/LITS17', save_folder='myTrainingDataTxt/')
